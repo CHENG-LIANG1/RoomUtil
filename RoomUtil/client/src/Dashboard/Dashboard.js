@@ -1,5 +1,5 @@
 // in src/Dashboard.js
-import React, {useState}from "react";
+import React, {useState, useEffect}from "react";
 import './Dashboard.css'; 
 import Card from 'react-bootstrap/Card';
 import Badge from 'react-bootstrap/Badge'
@@ -19,10 +19,16 @@ function Dashboard() {
 
     const [doc, setDoc] = useState([])
 
-    CDB.get("/assignment2/_all_docs?include_docs=true", {
-        responseType: 'json'
-    })
-    .then(res => setDoc(res.data.rows))
+    useEffect(() => {
+        CDB.get("/assignment2/_all_docs?include_docs=true", {
+            responseType: 'json'
+        })
+        .then(res => {setDoc(res.data.rows)
+    
+        })
+    }, [])
+
+
 
     const today = doc.slice(0, 20)
 
