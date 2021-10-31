@@ -1,0 +1,8 @@
+.report{
+
+    display: flex;
+}
+
+.report ul{
+    list-style: none;
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+.roomlist{
+    display: flex;
+    
+}
+
+.roomlist ul{
+    list-style: none;
+}
+
+.roomlist .roomlist-right{
+    margin-left: 40px;
+
+}
+
+
+.room-number ul li{
+    margin-right: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+
+.roomdetail {
+    display: flex;
+}
+
+.roomdetail  .roomdetail-right{
+    margin-left: 40px;
+}
+
+.roomdetail  .roomdetail-right h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.patients-information{
+    display: flex;
+}
+
+.patients-in-the-room{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 520px;
+    height: 400px;
+    border:2px solid rgb(12, 12, 15);
+    border-style: double double double double;
+}
+
+.patients-in-the-room ul{
+    list-style: none;
+}
+
+.patients-in-the-room ul li{
+    width: 100px;
+    height: 150px;
+    border:2px solid rgb(12, 12, 15);
+    border-style: double double double double;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+.patients-detail{
+    margin-left: 00px;
+    width: 600px;
+    height: 600px;
+    
+}
+
+.patients-detail ul{
+    list-style: none;
+}
+
+
+.patients-detail ul li{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+
+.nodata {
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+
+
+
+.Sidebar{
+    width: 200px;
+    height: 600px;
+    border:1px solid black;
+    border-style: none double none none;
+}
+
+
+ .Sidebar ul{
+    list-style: none;
+}
+
+.Sidebar ul li{
+    margin-bottom: 15px;
+}
+
+
+.Dashboard{
+    
+    display: flex;
+}
+
+
+.Dashboard ul{
+    list-style: none;
+}
+
+.Dashboard .Dashboard-right ul li{
+    margin-top: 10px;
+    margin-left: 175px;
+    display: inline-block;
+    
+
+}
+
+.Dashboard .heading-2{
+    margin-right: 40px;
+
+}
+
+
+.Dashboard .today{
+    margin-top: 40px;
+    margin-left: 175px;
+    
+}
+
+.Dashboard .today h1{
+
+    text-align: left;
+    margin-left: 50px;
+
+}
+
+
+.Dashboard .today-list ul li{
+    margin-top: 30px;
+    margin-left: 175px;
+    display: inline-block;
+}
