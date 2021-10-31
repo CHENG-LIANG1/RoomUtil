@@ -13,7 +13,7 @@ function ConstructRoomObject(id, doc){
             result.push({
                 humanID: doc[i].doc.HumanID,
                 heartbeat: doc[i].doc.heartbeat,
-                bodyTemp: doc[i].doc.bodytemp,
+                bodyTemp: Math.round(doc[i].doc.bodytemp * 100) / 100,
                 location: "(" + doc[i].doc.X_axis + "," + doc[i].doc.Y_axis + ")"
             })
         }
