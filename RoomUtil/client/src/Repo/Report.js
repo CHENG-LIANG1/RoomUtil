@@ -65,12 +65,12 @@ function Report(){
                 <li>            
                     <Line
                         data={{
-                            labels: labels,
+                            labels: labels.reverse(),
                             datasets:[
                                 {
 
                                     label:"Number of people",
-                                    data:values
+                                    data:values.reverse()
 
                                 }
                             ]
