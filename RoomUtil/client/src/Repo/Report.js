@@ -44,18 +44,6 @@ function Report(){
         values.push(dataSet[i].number)
     }
 
-    labels.push("2021-11-01")
-    labels.push("2021-11-02")
-    labels.push("2021-11-03")
-    labels.push("2021-11-04")
-
-
-    values.push(101)
-    values.push(121)
-    values.push(121)
-    values.push(141)
-    values.push(121)
-
 
     return(
 
